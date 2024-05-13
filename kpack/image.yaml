@@ -1,0 +1,15 @@
+apiVersion: kpack.io/v1alpha2
+kind: Image
+metadata:
+  name: tutorial-image
+  namespace: default
+spec:
+  tag: registry.gcp.ellin.net/library/tutorial-image
+  serviceAccountName: tutorial-service-account
+  builder:
+    name: my-builder
+    kind: Builder
+  source:
+    git:
+      url: https://github.com/spring-projects/spring-petclinic
+      revision: 3be289517d320a47bb8f359acc1d1daf0829ed0b
