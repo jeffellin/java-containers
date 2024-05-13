@@ -1,0 +1,10 @@
+
+diff:
+  # You can change the default files shown in the filetree (right pane). All diff types are shown by default.
+  hide:
+    - unmodified
+filetree:
+  # The default directory-collapse state
+  collapse-dir: false
+    # Show the file attributes next to the filetree
+  show-attributes: false

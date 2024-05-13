@@ -5,6 +5,6 @@ metadata:
 spec:
   id: "io.buildpacks.stacks.jammy"
   buildImage:
-    image: "paketobuildpacks/build-jammy-base:0.1.110"
+    image: "paketobuildpacks/build-jammy-base:0.1.113"
   runImage:
-    image: "paketobuildpacks/run-jammy-base:0.1.110"
+    image: "paketobuildpacks/run-jammy-base:0.1.113"
